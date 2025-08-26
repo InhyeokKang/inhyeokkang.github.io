@@ -8,6 +8,7 @@ I am currently a Ph.D. candidate in the Department of Convergence Software at Ha
 
 ## Research Interests
 
+- **Wireless Communication & Networks:** sensor networks, low-power and lossy networks (LLNs), maritime wireless communication, wireless power transfer, blockchain-enabled IoT networks
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 {% include_relative _includes/publications.md %}
