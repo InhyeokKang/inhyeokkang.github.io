@@ -15,3 +15,35 @@ main:
     pdf: 
     notes: Poster Presentation
     image: ./assets/img/teaser_example.png
+
+  - title: "채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구"
+    authors: 박혜진, 운석현, 김의직, 강인혁, 이솔비, 권정혁
+    conference_short: DCS
+    conference: 한국디지털콘텐츠학회 <strong>(ICKII)</strong>, 2025.
+    pdf: 
+    notes: Poster Presentation
+    image: ./assets/img/teaser_example.png
+    
+  - title: "사물인터넷 환경에서 부하 경감을 위한 그룹 토픽 기반 MQTT 메시지 통합 기법에 관한 연구"
+    authors: 서윤찬, 김의직, 강인혁, 이솔비, 권정혁
+    conference_short: DCS
+    conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
+    pdf: 
+    notes: Poster Presentation
+    image: ./assets/img/teaser_example.png
+
+  - title: "IEEE 802.15.4 DSME 네트워크를 위한 Multi-superframe Order 설정 연구"
+    authors: 강인혁, 권정혁, 이솔비, <strong>김의직</strong>, (*Corresponding authors)
+    conference_short: KICS
+    conference: 한국통신학회 <strong>(ICKII)</strong>, 2025.
+    pdf: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12132228
+    notes: Poster Presentation
+    image: ./assets/img/teaser_example.png
+
+  - title: "Traffic-aware GTS Allocation Interval Determination for IEEE 802.15.4 DSME Networks"
+    authors: Inhyeok Kang, Sol-Bee Lee, Jung-Hyok Kwon, <strong>Eui-Jik Kim</strong>, (*Corresponding authors)
+    conference_short: e-Science
+    conference: IEEE International Conference on e-Science <strong>(e-Science)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10678698
+    notes: Poster Presentation
+    image: ./assets/img/teaser_example.png
