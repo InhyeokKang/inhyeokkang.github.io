@@ -18,7 +18,7 @@ main:
   - title: "채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구"
     authors: 박혜진, 운석현, 김의직, 강인혁, 이솔비, 권정혁
     conference_short: DCS
-    conference: 한국디지털콘텐츠학회 <strong>(ICKII)</strong>, 2025.
+    conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2025_2.png
     
@@ -32,7 +32,7 @@ main:
   - title: "IEEE 802.15.4 DSME 네트워크를 위한 Multi-superframe Order 설정 연구"
     authors: 강인혁, 권정혁, 이솔비, <strong>김의직*</strong>, (*Corresponding authors)
     conference_short: KICS
-    conference: 한국통신학회 <strong>(ICKII)</strong>, 2025.
+    conference: 한국통신학회 <strong>(KICS)</strong>, 2025.
     pdf: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12132228
     notes: Poster Presentation
     image: ./assets/img/teaser_kics_2025.png
