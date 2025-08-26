@@ -35,7 +35,7 @@ main:
     conference: 한국통신학회 <strong>(ICKII)</strong>, 2025.
     pdf: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12132228
     notes: Poster Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/teaser_kics_2025.png
 
   - title: "Traffic-aware GTS Allocation Interval Determination for IEEE 802.15.4 DSME Networks"
     authors: Inhyeok Kang, Sol-Bee Lee, Jung-Hyok Kwon, <strong>Eui-Jik Kim*</strong>, (*Corresponding authors)
