@@ -11,9 +11,9 @@ main:
     authors: Sol-Bee Lee, Inhyeok Kang, Jung-Hyok Kwon, <strong>Eui-Jik Kim</strong>, (*Corresponding authors)
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
+    pdf: 
+    code: 
+    page: 
+    bibtex: 
+    notes: Poster Presentation
     image: ./assets/img/teaser_example.png
