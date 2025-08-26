@@ -43,7 +43,7 @@ main:
     conference: IEEE International Conference on e-Science <strong>(e-Science)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10678698
     notes: Poster Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/teaser_escience_2024.png
 
   - title: "IEEE 802.15.4 DSME 네트워크에서 결정적 종단 간 지연을 위한 프레임 분할 기반 자원 할당 기법 연구"
     authors: 강인혁, 강인혁, 권정혁, 이솔비, 운석현, <strong>김의직*</strong>, (*Corresponding authors)
