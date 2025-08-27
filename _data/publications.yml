@@ -1,7 +1,7 @@
 main:
 
   - title: Temporary Resource Allocation for Event-driven Traffic in IEEE 802.15.4 DSME
-    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
+    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250223_Full paper_Temporary resource.pdf
@@ -9,7 +9,7 @@ main:
     notes: Oral Presentation
 
   - title: "Delay-Compensated Time-Aware Shaper for Automotive Time-Sensitive Networks"
-    authors: Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
+    authors: Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Jung-Hyok Kwon, Eui-Jik Kim*
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250221_Full paper_Delay-Compensated.pdf
@@ -33,7 +33,7 @@ main:
     image: ./assets/img/teaser_dcs_2025_1.png
 
   - title: "IEEE 802.15.4 DSME 네트워크를 위한 Multi-superframe Order 설정 연구"
-    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 김의직*, (*Corresponding authors)
+    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 김의직*
     conference_short: KICS
     conference: 한국통신학회 <strong>(KICS)</strong>, 2025.
     pdf: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12132228
@@ -41,7 +41,7 @@ main:
     image: ./assets/img/teaser_kics_2025.png
 
   - title: "Traffic-aware GTS Allocation Interval Determination for IEEE 802.15.4 DSME Networks"
-    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
+    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*
     conference_short: e-Science
     conference: IEEE International Conference on e-Science <strong>(e-Science)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10678698
@@ -49,7 +49,7 @@ main:
     image: ./assets/img/teaser_escience_2024.png
 
   - title: "IEEE 802.15.4 DSME 네트워크에서 결정적 종단 간 지연을 위한 프레임 분할 기반 자원 할당 기법 연구"
-    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 운석현, 김의직*, (*Corresponding authors)
+    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 운석현, 김의직*
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2024.
     pdf: ./assets/files/20240628_DCS_2024_하계종합학술대회_논문_강인혁_2024년6월28일발표.pdf
