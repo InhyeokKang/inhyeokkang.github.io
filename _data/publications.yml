@@ -1,7 +1,7 @@
 main:
 
   - title: Temporary Resource Allocation for Event-driven Traffic in IEEE 802.15.4 DSME
-    authors: Inhyeok Kang, Sol-Bee Lee, Jung-Hyok Kwon, <strong>Eui-Jik Kim*</strong>, (*Corresponding authors)
+    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: 
@@ -9,28 +9,28 @@ main:
     notes: Oral Presentation
 
   - title: "Delay-Compensated Time-Aware Shaper for Automotive Time-Sensitive Networks"
-    authors: Sol-Bee Lee, Inhyeok Kang, Jung-Hyok Kwon, <strong>Eui-Jik Kim*</strong>, (*Corresponding authors)
+    authors: Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     notes: Poster Presentation
     image: ./assets/img/teaser_ickii_2025_1.png
 
   - title: "채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구"
-    authors: 박혜진, 운석현, 김의직, 강인혁, 이솔비, 권정혁
+    authors: 박혜진, 운석현, 김의직, <strong>강인혁</strong>, 이솔비, 권정혁
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2025_2.png
     
   - title: "사물인터넷 환경에서 부하 경감을 위한 그룹 토픽 기반 MQTT 메시지 통합 기법에 관한 연구"
-    authors: 서윤찬, 김의직, 강인혁, 이솔비, 권정혁
+    authors: 서윤찬, 김의직, <strong>강인혁</strong>, 이솔비, 권정혁
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2025_1.png
 
   - title: "IEEE 802.15.4 DSME 네트워크를 위한 Multi-superframe Order 설정 연구"
-    authors: 강인혁, 권정혁, 이솔비, <strong>김의직*</strong>, (*Corresponding authors)
+    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 김의직*, (*Corresponding authors)
     conference_short: KICS
     conference: 한국통신학회 <strong>(KICS)</strong>, 2025.
     pdf: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE12132228
@@ -38,7 +38,7 @@ main:
     image: ./assets/img/teaser_kics_2025.png
 
   - title: "Traffic-aware GTS Allocation Interval Determination for IEEE 802.15.4 DSME Networks"
-    authors: Inhyeok Kang, Sol-Bee Lee, Jung-Hyok Kwon, <strong>Eui-Jik Kim*</strong>, (*Corresponding authors)
+    authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
     conference_short: e-Science
     conference: IEEE International Conference on e-Science <strong>(e-Science)</strong>, 2024.
     pdf: https://ieeexplore.ieee.org/abstract/document/10678698
@@ -46,7 +46,7 @@ main:
     image: ./assets/img/teaser_escience_2024.png
 
   - title: "IEEE 802.15.4 DSME 네트워크에서 결정적 종단 간 지연을 위한 프레임 분할 기반 자원 할당 기법 연구"
-    authors: 강인혁, 강인혁, 권정혁, 이솔비, 운석현, <strong>김의직*</strong>, (*Corresponding authors)
+    authors: <strong>강인혁</strong>, 권정혁, 이솔비, 운석현, 김의직*, (*Corresponding authors)
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2024.
     pdf: ./assets/files/20240628_DCS_2024_하계종합학술대회_논문_강인혁_2024년6월28일발표.pdf
