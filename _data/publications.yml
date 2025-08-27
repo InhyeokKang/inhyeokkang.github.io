@@ -2,7 +2,7 @@ main:
 
   - title: Temporary Resource Allocation for Event-driven Traffic in IEEE 802.15.4 DSME
     authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*
-    conference_short: 
+    conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250223_Full paper_Temporary resource.pdf
     image: ./assets/img/teaser_ickii_2025_2.png
