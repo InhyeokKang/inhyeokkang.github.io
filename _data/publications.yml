@@ -4,7 +4,7 @@ main:
     authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
-    pdf: 
+    pdf: ./assets/files/20250822_K250223_Full paper_Temporary resource.pdf
     image: ./assets/img/teaser_ickii_2025_2.png
     notes: Oral Presentation
 
@@ -12,6 +12,7 @@ main:
     authors: Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Jung-Hyok Kwon, Eui-Jik Kim*, (*Corresponding authors)
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
+    pdf: ./assets/files/20250822_K250221_Full paper_Delay-Compensated.pdf
     notes: Poster Presentation
     image: ./assets/img/teaser_ickii_2025_1.png
 
@@ -19,6 +20,7 @@ main:
     authors: 박혜진, 운석현, 김의직, <strong>강인혁</strong>, 이솔비, 권정혁
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
+    pdf: ./assets/files/20250704_박혜진_채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구.pdf
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2025_2.png
     
@@ -26,6 +28,7 @@ main:
     authors: 서윤찬, 김의직, <strong>강인혁</strong>, 이솔비, 권정혁
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
+    pdf: ./assets/files/20250704_서윤찬_사물인터넷 환경에서 부하 경감을 위한 그룹 토픽 기반 MQTT 메시지 통합 기법에 관한 연구.pdf
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2025_1.png
 
