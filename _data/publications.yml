@@ -49,5 +49,6 @@ main:
     authors: 강인혁, 강인혁, 권정혁, 이솔비, 운석현, <strong>김의직*</strong>, (*Corresponding authors)
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2024.
+    pdf: ./assets/files/20240628_DCS_2024_하계종합학술대회_논문_강인혁_2024년6월28일발표.pdf
     notes: Poster Presentation
     image: ./assets/img/teaser_dcs_2024.png
