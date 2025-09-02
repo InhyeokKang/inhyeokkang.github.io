@@ -5,6 +5,7 @@ main:
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250223_Full paper_Temporary resource.pdf
+    PPT: ./assets/files/20250822_K250223_Full paper_Temporary resource_oral presentation.pdf
     image: ./assets/img/teaser_ickii_2025_2.png
     notes: Oral Presentation
 
@@ -13,6 +14,7 @@ main:
     conference_short: ICKII
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250221_Full paper_Delay-Compensated.pdf
+    poster: ./assets/files/ICKII 2025_poster.pdf
     notes: Poster Presentation
     image: ./assets/img/teaser_ickii_2025_1.png
 
