@@ -11,6 +11,11 @@ I am currently a Ph.D. candidate in the Department of Computer Engineering at Ha
 - **Wireless Communication & Networks:** sensor networks, low-power and lossy networks (LLNs), maritime wireless communication, wireless power transfer, blockchain-enabled IoT networks
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
 
+## Portfolio
+
+- <a href="./assets/files/portfolio_research.pdf" target="_blank">Portfolio for Research Positions (PDF, Korean)</a>
+- <a href="./assets/files/portfolio_developer.pdf" target="_blank">Portfolio for Software Developer Positions (PDF, Korean)</a>
+
 ## Journals
 
 - "Traffic-aware and transient slot allocation for deterministic and synchronous multichannel extension networks", **Inhyeok Kang**, Jung-Hyok Kwon, Sol-Bee Lee, Eui-Jik Kim* >> *Engineering Applications of Artificial Intelligence* (SCIE), under revision.
