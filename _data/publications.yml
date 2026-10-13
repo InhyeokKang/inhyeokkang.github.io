@@ -1,18 +1,5 @@
 main:
 
-  - title: Application-Level Multicast-Assisted MQTT for Emergency Message Dissemination in Vehicle-to-Everything Networks
-    authors: Jung-Hyok Kwon, Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Eui-Jik Kim*
-    conference_short: ICEIC
-    conference: International Conference on Electronics, Information, and Communication <strong>(ICEIC)</strong>, 2026.
-    notes: 포스터 발표
-
-  - title: Performance Evaluation of Sliding Window Techniques in Machine Learning Models for Financial Fraud Detection
-    authors: Sol-Bee Lee, <strong>Inhyeok Kang</strong>, Jung-Hyok Kwon, Eui-Jik Kim*
-    conference_short: TIMES-iCON
-    conference: Technology Innovation Management and Engineering Science International Conference <strong>(TIMES-iCON)</strong>, 2025.
-    notes: 구두 발표
-
-
   - title: Temporary Resource Allocation for Event-driven Traffic in IEEE 802.15.4 DSME
     authors: <strong>Inhyeok Kang</strong>, Sol-Bee Lee, Jung-Hyok Kwon, Eui-Jik Kim*
     conference_short: ICKII
@@ -28,7 +15,7 @@ main:
     conference: International Conference on Knowledge Innovation and Invention <strong>(ICKII)</strong>, 2025.
     pdf: ./assets/files/20250822_K250221_Full paper_Delay-Compensated.pdf
     poster: ./assets/files/ICKII 2025_poster.pdf
-    notes: 포스터 발표 · Best Conference Paper Award
+    notes: 포스터 발표
     image: ./assets/img/teaser_ickii_2025_1.png
 
   - title: "채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구"
@@ -36,7 +23,7 @@ main:
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
     pdf: ./assets/files/20250704_박혜진_채널 상태 정보 기반 무자각 환자 행동 모니터링 시스템에 관한 연구.pdf
-    notes: 포스터 발표 · 대학생 논문경진대회 은상
+    notes: 포스터 발표
     image: ./assets/img/teaser_dcs_2025_2.png
     
   - title: "사물인터넷 환경에서 부하 경감을 위한 그룹 토픽 기반 MQTT 메시지 통합 기법에 관한 연구"
@@ -44,7 +31,7 @@ main:
     conference_short: DCS
     conference: 한국디지털콘텐츠학회 <strong>(DCS)</strong>, 2025.
     pdf: ./assets/files/20250704_서윤찬_사물인터넷 환경에서 부하 경감을 위한 그룹 토픽 기반 MQTT 메시지 통합 기법에 관한 연구.pdf
-    notes: 포스터 발표 · 대학생 논문경진대회 동상
+    notes: 포스터 발표
     image: ./assets/img/teaser_dcs_2025_1.png
 
   - title: "IEEE 802.15.4 DSME 네트워크를 위한 Multi-superframe Order 설정 연구"
