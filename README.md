@@ -1,3 +1,23 @@
+# 강인혁 개인 홈페이지
+
+소프트웨어 개발·통신 연구 경험을 소개하는 한국어 홈페이지입니다.
+
+- 공개 주소: https://inhyeokkang.github.io/
+- 소개·연구·실습·학력·논문 상태: `index.html`
+- 개발 프로젝트와 공모전 상태: `_data/projects.yml`
+- 학회 발표와 자료 링크: `_data/publications.yml`
+- 이름·소속·업데이트 날짜·검색 설명: `_config.yml`
+- 공통 화면: `_layouts/homepage.html`, `assets/css/profile.css`
+
+`main` 브랜치의 루트 디렉터리를 GitHub Pages의 Jekyll 빌드로 배포합니다.
+논문 제목과 공식 기술명은 원문을 유지하며, 설명과 메뉴는 한국어로 작성합니다.
+공모전 진행 상태를 수정할 때는 기준일도 함께 갱신합니다.
+기존 PDF는 홈페이지 하단의 이전 작성본 자료에서 확인할 수 있습니다.
+
+---
+
+## 원본 테마 안내
+
 # The Minimal Light Theme
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)

@@ -1,57 +1,22 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Conferences</h2>
-
-<div class="publications">
 <ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-    {% if link.conference_short %} 
-    <abbr class="badge">{{ link.conference_short }}</abbr>
-    {% endif %}
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+{% for publication in site.data.publications.main %}
+  <li>
+    <div class="pub-row{% unless publication.image %} no-image{% endunless %}">
+      {% if publication.image %}<img class="pub-image" src="{{ publication.image }}" alt="{{ publication.title | escape }} 연구 그림" loading="lazy" width="116" height="84">{% endif %}
+      <div>
+        <h3 class="pub-title">{% if publication.pdf %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+        <p class="pub-author">{{ publication.authors }}</p>
+        <p class="pub-venue">{{ publication.conference }}</p>
+        {% if publication.notes %}<p class="pub-notes">{{ publication.notes }}</p>{% endif %}
+        <div class="pub-links">
+          {% if publication.pdf %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer">논문 보기</a>{% endif %}
+          {% if publication.PPT %}<a href="{{ publication.PPT }}" target="_blank" rel="noopener noreferrer">발표자료</a>{% endif %}
+          {% if publication.poster %}<a href="{{ publication.poster }}" target="_blank" rel="noopener noreferrer">포스터</a>{% endif %}
+          {% if publication.code %}<a href="{{ publication.code }}" target="_blank" rel="noopener noreferrer">코드</a>{% endif %}
+          {% if publication.page %}<a href="{{ publication.page }}" target="_blank" rel="noopener noreferrer">프로젝트 소개</a>{% endif %}
+        </div>
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.PPT %} 
-      <a href="{{ link.PPT }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PPT</a>
-      {% endif %}
-      {% if link.poster %} 
-      <a href="{{ link.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
     </div>
-  </div>
-</div>
-</li>
-<br>
-
+  </li>
 {% endfor %}
-
 </ol>
-</div>

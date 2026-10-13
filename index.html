@@ -1,0 +1,127 @@
+---
+layout: homepage
+---
+
+<p class="eyebrow" id="intro">소프트웨어 개발 · 통신·네트워크 연구</p>
+<h2 class="intro-title">통신 성능을 개선하고,<br>사용자가 직접 쓰는 소프트웨어를 만듭니다.</h2>
+<p class="intro-copy">한림대학교 컴퓨터공학과 박사과정 강인혁입니다. 통신 네트워크의 처리량과 지연을 개선하는 연구를 하며, 데스크톱·모바일 앱 개발과 Linux·임베디드 실습 자료 제작 및 지도를 함께 하고 있습니다.</p>
+<p>요구사항을 분석하고 동작을 설계한 뒤, 코드 구현과 오류 수정, 성능 검증까지 직접 연결하는 작업에 관심이 있습니다.</p>
+
+<div class="highlight" aria-label="주요 연구 성과">
+  <div><strong>44.32% ↑</strong><span>평균 데이터 처리량<br>웨어러블 과제 · 시뮬레이션 비교</span></div>
+  <div><strong>63.94% ↓</strong><span>최대 통신 지연 감소<br>웨어러블 과제 · 시뮬레이션 비교</span></div>
+  <div><strong>IEEE Access</strong><span>FCD 논문 게재 승인<br>제1저자 · SCIE</span></div>
+</div>
+
+<dl class="skills">
+  <div><dt>Linux·임베디드</dt><dd>Ubuntu · C · GCC/Make · 프로세스·소켓 통신 · Raspberry Pi</dd></div>
+  <div><dt>화면·응용 개발</dt><dd>React · Electron · Kotlin/Jetpack Compose · Python/FastAPI · Java</dd></div>
+  <div><dt>통신·성능 분석</dt><dd>MATLAB · OMNeT++/INET · Wireshark · MQTT · Ethernet/TSN</dd></div>
+  <div><dt>협업</dt><dd>Git/GitHub · PR 작성·검토·병합 · 개발 과정 및 검증 결과 문서화</dd></div>
+</dl>
+
+<h2 id="projects">개발 프로젝트</h2>
+<p>공모전과 사이드 프로젝트에서 사용자 화면과 처리 기능을 연결했습니다.</p>
+
+{% include projects.html %}
+
+<h2 id="research">주요 연구·과제</h2>
+<div class="cards">
+  <article class="card">
+    <div class="card-head"><h3>초저전력 IoT 기반 웨어러블 시스템 과제</h3><span class="badge">연구책임자</span></div>
+    <p class="meta">2024.07 – 2025.06 · 교육부 · 요구분석·모델링·개발·디버깅</p>
+    <p>장치별 데이터 전송량을 고려한 통신 자원 배분과 거리·전력 예측 소프트웨어를 개발했습니다.</p>
+    <ul class="card-list">
+      <li><strong>문제:</strong> 데이터가 많이 모이는 장치의 전송 지연과 거리 추정 오차를 줄여야 했습니다.</li>
+      <li><strong>해결:</strong> 장치별 전송 부담에 따라 전송 순서와 간격을 조정했습니다. CSI(Channel State Information, 채널 상태 정보)를 전처리하고, 거리·전력 예측 모델을 구현해 단계별 입출력과 성능을 검증했습니다.</li>
+      <li><strong>결과:</strong> 기존 통신 방식 대비 평균 처리량 44.32% 향상·지연 최대 63.94% 감소를 확인했습니다. 거리 예측 오차는 기존 신호세기 기반 방식 대비 약 60.3% 줄였습니다(RMSE 1.171 → 0.465).</li>
+    </ul>
+    <p class="note">통신 성능은 시뮬레이션 비교 결과입니다. 공식 과제명: On-Device 머신러닝 기반 에너지 자립형 웨어러블 헬스케어 시스템 연구.</p>
+  </article>
+  <article class="card">
+    <div class="card-head"><h3>차량 이더넷 통신 성능 개선</h3><span class="badge">공동 연구</span></div>
+    <p class="meta">OMNeT++/INET · Ethernet/TSN · 알고리즘 설계·시뮬레이션 구현·실험 데이터 정리 참여</p>
+    <ul class="card-list">
+      <li><strong>문제:</strong> 긴급 데이터가 몰리면 기존 전송 일정이 밀리면서 제어·영상 데이터의 지연도 커졌습니다.</li>
+      <li><strong>해결:</strong> 긴급 데이터의 전송 시간을 계산해 스위치의 전송 일정을 조정하고, 남는 시간을 다른 데이터 전송에 활용하도록 구현·평가했습니다.</li>
+      <li><strong>결과:</strong> 기존 방식(eTAS) 대비 평균 처리량 32.04% 향상·평균 통신 지연 8.91% 감소를 시뮬레이션에서 확인했습니다.</li>
+    </ul>
+    <p class="result"><strong>ICKII 2025 Best Conference Paper Award</strong> · 공동 논문 제2저자</p>
+    <div class="card-links"><a href="./assets/files/20250822_K250221_Full paper_Delay-Compensated.pdf" target="_blank" rel="noopener noreferrer">논문 PDF ↗</a></div>
+  </article>
+</div>
+
+<h3 class="minor-heading">참여 과제</h3>
+<ul class="research-grants">
+  <li><strong>초저전력 IoT 기반 웨어러블 시스템 과제</strong><span class="meta">교육부 · 연구책임자 · 2024.07 – 2025.06</span></li>
+  <li><strong>소프트웨어 중심 자동차를 위한 블록체인 기반 차량데이터 보안 프레임워크 개발</strong><span class="meta">과학기술정보통신부 · 참여연구원 · 2024.06 – 현재</span></li>
+</ul>
+
+<h2 id="teaching">실습 자료 제작·지도</h2>
+<p class="meta">2023년 2학기 – 현재 · 학부 실습조교</p>
+<p>운영체제·임베디드시스템·IoT네트워크 과목의 실습 자료와 예제 코드를 직접 제작하고, 환경 설정부터 구현·동작 확인까지 실습을 지도했습니다.</p>
+<div class="teaching-grid">
+  <div><h3>운영체제</h3><p>Linux의 파일 입출력, 프로세스, 통신 동작을 이해하도록 C 예제를 제작했습니다. GCC·Make 빌드, fork/exec, 프로세스 간 통신, 소켓 송수신 결과를 함께 확인했습니다.</p></div>
+  <div><h3>임베디드시스템</h3><p>Raspberry Pi에서 센서 입력을 읽고 주변장치를 제어하는 실습을 구성했습니다. 원격 접속·환경 설정, 버튼·센서 입력에 따른 LED 제어, LCD 온습도 표시 등을 다뤘습니다.</p></div>
+  <div><h3>IoT네트워크</h3><p>장치 데이터를 서비스로 연결하는 과정을 실습하도록 MQTT 메시지 송수신, DB 저장, GUI·웹 화면 표시 예제를 제작하고 설정·코드·결과를 자료로 정리했습니다.</p></div>
+</div>
+<p class="result">담당 실습에서 <strong>중도 낙오 없이 모든 학생이 실습을 완료했고, 전원 실습 평가에서 만점</strong>을 받았습니다.</p>
+
+<h2 id="publications">논문·학회 발표</h2>
+<article class="publication">
+  <span class="badge success">SCIE · 게재 승인</span>
+  <h3 lang="en">Fast Coordinator Discovery in IEEE 802.15.4 DSME via Multi-Channel Beaconing and Early-Stop Scanning</h3>
+  <p><strong>강인혁(제1저자)</strong>, 권정혁, 이솔비, 김의직 · <i lang="en">IEEE Access</i></p>
+  <p>여러 채널에서 연결 정보를 전달하고 필요한 정보를 얻으면 탐색을 종료해, 장치가 네트워크에 연결할 대상을 찾는 시간을 줄이는 연구입니다.</p>
+</article>
+<details>
+  <summary>국내 학술지 논문 2편</summary>
+  <article class="publication">
+    <h3>채널 상태 정보를 활용한 대규모 언어 모델 통합형 인간 행동 인식 시스템 연구</h3>
+    <p>박혜진, <strong>강인혁</strong>, 이솔비, 권정혁, 김의직 · 사물인터넷융복합논문지(KCI), 2025</p>
+  </article>
+  <article class="publication">
+    <h3>금융 사기 탐지를 위한 시간 인식 슬라이딩 윈도우 기반 머신러닝 평가 프레임워크</h3>
+    <p>이솔비, <strong>강인혁</strong>, 권정혁, 김지온, 김의직 · 디지털콘텐츠학회논문지(KCI), 2025</p>
+  </article>
+</details>
+<details id="conferences">
+  <summary>학회 발표 {{ site.data.publications.main.size }}건 · 논문·발표자료 보기</summary>
+  {% include publications.md %}
+</details>
+
+<h2 id="career">학력·수상·특허</h2>
+<h3>학력</h3>
+<ul class="timeline">
+  <li><time>2025.09 – 현재</time><p><strong>한림대학교 컴퓨터공학과 박사과정</strong></p></li>
+  <li><time>2023.09 – 2025.08</time><p><strong>한림대학교 융합소프트웨어학과 석사</strong><br>학점 4.36 / 4.5</p></li>
+  <li><time>2020.03 – 2023.08</time><p><strong>한림대학교 소프트웨어학부 학사</strong><br>학점 4.16 / 4.5</p></li>
+</ul>
+<h3 class="minor-heading">수상·어학</h3>
+<ul>
+  <li><strong>ICKII 2025 Best Conference Paper Award</strong> — 차량 이더넷 통신 연구 공동 논문</li>
+  <li><strong>2025 한국디지털콘텐츠학회 대학생 논문경진대회 은상·동상</strong> — 과제 공동연구</li>
+  <li><strong>SW 캡스톤디자인 입상</strong> — 한림대학교, 2023</li>
+  <li><strong>TOEIC Speaking AL</strong> — 2025.09</li>
+</ul>
+<details>
+  <summary>특허 출원 4건 · 공동 발명</summary>
+  <ol class="patents">
+    <li>각 노드로부터 설정된 GTS 할당 정보를 기초로 GTS를 할당하는 DSME 네트워크 시스템의 동작 방법, 시스템, 및 각 노드의 GTS를 할당하는 전자 장치의 동작 방법<p class="meta">김의직, 강인혁, 이솔비, 권정혁 · 출원번호 10-2024-0133122 · 2024.09.30</p></li>
+    <li>트래픽 부하에 따라 GTS 할당 간격을 설정하는 전자 장치의 동작 방법<p class="meta">김의직, 강인혁, 이솔비, 권정혁 · 출원번호 10-2024-0133121 · 2024.09.30</p></li>
+    <li>추정 잔여 전력량에 따라 무선 전력 송신용 GTS를 추가 할당하는 시스템, 방법 및 컴퓨터 프로그램<p class="meta">김의직, 권정혁, 이솔비, 강인혁 · 출원번호 10-2024-0089067 · 2024.07.05</p></li>
+    <li>멀티 슈퍼 프레임 동안 소모될 소모 전력량에 따라 무선 전력 송신용 GTS를 할당하는 시스템, 방법 및 컴퓨터 프로그램<p class="meta">김의직, 권정혁, 이솔비, 강인혁 · 출원번호 10-2024-0089066 · 2024.07.05</p></li>
+  </ol>
+</details>
+
+<h2 id="resources">자료</h2>
+<p>프로젝트의 코드와 소개 페이지는 각 프로젝트에서 확인할 수 있습니다. 연구 논문과 발표자료는 위의 학회 발표 목록에 연결했습니다.</p>
+<details>
+  <summary>이전 작성본 PDF 자료</summary>
+  <p class="note">아래 PDF는 이전 작성본입니다. 최근 프로젝트와 논문 게재 상태는 이 페이지에 반영되어 있습니다.</p>
+  <ul>
+    <li><a href="./assets/files/cv.pdf" target="_blank" rel="noopener noreferrer">이력서 PDF (영문)</a></li>
+    <li><a href="./assets/files/portfolio_developer.pdf" target="_blank" rel="noopener noreferrer">개발 포트폴리오 PDF (국문)</a></li>
+    <li><a href="./assets/files/portfolio_research.pdf" target="_blank" rel="noopener noreferrer">연구 포트폴리오 PDF (국문)</a></li>
+  </ul>
+</details>
